@@ -1,0 +1,72 @@
+.bg-blackcontainer {
+    height: 100vh;
+    background-color: aqua;
+}
+
+.cardcontainer {
+    width: 400px;
+    box-shadow: 0 5px 10px rgba(236, 5, 5, 0.22);
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(5, 240, 232, 0.22);
+    color: rgb(14, 228, 217);
+    cursor: pointer;
+}
+
+.imgthumb {
+    box-shadow: 0 5px 10px rgba(5, 240, 232, 0.22);
+}
+
+.headtitle {
+    text-align: center;
+    color: aqua;
+    font-weight: 400;
+    
+}
+.dap {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(5, 240, 232, 0.22);
+    color: rgb(14, 228, 217);
+    padding-top: 21px;
+    cursor: pointer;
+}
+
+
+
+
+#progress {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: rgb(14, 228, 217);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0px;
+}
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: rgb(14, 228, 217);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid antiquewhite;
+    box-shadow: 0 5px 10px rgba(5, 240, 232, 0.22);
+}
